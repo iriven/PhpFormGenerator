@@ -20,7 +20,7 @@ $form = new Iriven\PhpFormBuilder()
 ##### Example 
 ```php
     $form->Create(['method'=>'post'])
-        ->OpenFieldset(['legend'=>'Etat-Civil'])
+    ->OpenFieldset(['legend'=>'Etat-Civil'])
     ->addText('nom')
     ->addText('prenom')
     ->addYesNo('es-tu content?')
