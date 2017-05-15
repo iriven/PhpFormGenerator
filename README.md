@@ -20,6 +20,9 @@ require_once 'PhpFormBuilder.php';
 $form = new Iriven\PhpFormBuilder()
 ```
 ##### Example 
+
+PhpFormBuilder provides a fluent method of form creation, allowing you to do:
+
 ```php
     $form->Create(['method'=>'post'])
     ->OpenFieldset(['legend'=>'Etat-Civil'])
