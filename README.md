@@ -4,6 +4,7 @@ The Ultimate PHP Form Builder Class is developed with the following goals in min
   - promotes rapid development of HTML forms through an object-oriented PHP framework.
   - Eliminate the grunt/repetitive work of writing the html when building forms.
   - Reduce human error by using a consistent/tested utility.
+Give it a try and let me know what you like, hate, and think needs to be fixed.
 
 ## Dependencies
 
