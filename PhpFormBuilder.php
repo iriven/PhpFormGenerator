@@ -13,7 +13,6 @@ use Iriven\Dependencies\WorldCountriesDatas;
 
 class PhpFormBuilder implements FormBuilderInterface
 {
-    private $FormHtml=null;
     private $GlobalAttributes=['accesskey','class','contenteditable', 'contextmenu','dir','draggable','dropzone','hidden','id','lang','spellcheck','style','tabindex','title','translate'];
     private $AllowedEvents = ['onblur','onchange','oncontextmenu','onfocus','oninput','oninvalid','onreset','onsearch','onselect','onsubmit','onkeydown','onkeypress','onkeyup','onclick','ondblclick','ondrag','ondragend','ondragenter','ondragleave','ondragover','ondragstart','ondrop','onmousedown','onmousemove','onmouseout','onmouseover','onmouseup','onmousewheel','onscroll','onwheel'];
     private $AllowedAttributes= [
@@ -86,10 +85,7 @@ class PhpFormBuilder implements FormBuilderInterface
      * @return mixed
      */
     public function Close(){
-        $this->Save($html = '</form>');
-        $html = $this->FormHtml;
-        $this->FormHtml=null;
-        return print_r($html);
+        return $this->Save($html = '</form>');
     }
 
     /**
@@ -909,11 +905,12 @@ class PhpFormBuilder implements FormBuilderInterface
 
     /**
      * @param $html
-     * @return $this
+     * @return null|PhpFormBuilder
      */
-    private function Save($html){
-        $this->FormHtml .= $html;
-        return $this;
+    private function Save($html)
+    {
+        print_r($html);
+        return strcasecmp($html,'</form>') !== 0? $this: null;
     }
 
 }
