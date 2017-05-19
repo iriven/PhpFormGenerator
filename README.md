@@ -1,4 +1,7 @@
 # PhpFormBuilder
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XDCFPNTKUC4TU)
+
 The Ultimate PHP Form Builder Class is developed with the following goals in mind...
 
   - promotes rapid development of HTML forms through an object-oriented PHP framework.
