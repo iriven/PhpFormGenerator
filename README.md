@@ -1,6 +1,7 @@
 # PhpFormBuilder
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XDCFPNTKUC4TU)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/iriven/PhpFormBuilder/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 The Ultimate PHP Form Builder Class is developed with the following goals in mind...
 
