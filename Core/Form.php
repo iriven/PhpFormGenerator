@@ -68,7 +68,7 @@ class form implements FormInterface
     }
     /**
      * @param $element
-     * @return FormElement|string $this
+     * @return $this
      */
     public function append($element)
     {
