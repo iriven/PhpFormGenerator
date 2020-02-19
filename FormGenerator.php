@@ -633,7 +633,7 @@ class FormGenerator
     }
     /**
      * @param $element
-     * @param null $default
+     * @param $default
      * @return mixed
      */
     private function getDefaultValue(FormElement $element,$default=null)
