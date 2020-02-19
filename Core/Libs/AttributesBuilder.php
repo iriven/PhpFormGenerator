@@ -58,12 +58,12 @@ class AttributesBuilder implements AttributesBuilderInterface
     }
 
     /**
-     * @param $token
+     * @param string $token
      * @return $this
      */
     public function createFormID($token = null)
     {
-        $token or $token = microtime(true);
+        !empty($token) or $token = microtime(true);
         $token = $this->normalize($token);
         if(strpos($token,'form-')!==0)
             $token = 'form-'.$token;
@@ -104,7 +104,7 @@ class AttributesBuilder implements AttributesBuilderInterface
         return $this->attributes->has($key);
     }
     /**
-     * @param $ignore
+     * @param mixed $ignore
      * @return $this
      */
     public function Ignore($ignore)
@@ -116,7 +116,7 @@ class AttributesBuilder implements AttributesBuilderInterface
     }
 
     /**
-     * @param $key
+     * @param string $key
      * @return $this
      */
     public function remove($key)
@@ -127,8 +127,8 @@ class AttributesBuilder implements AttributesBuilderInterface
     }
 
     /**
-     * @param $key
-     * @param $value
+     * @param string $key
+     * @param mixed $value
      * @return $this
      */
     public function set($key,$value)
