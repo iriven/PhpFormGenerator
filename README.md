@@ -1,4 +1,4 @@
-# PhpFormBuilder
+# PhpFormGenerator
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XDCFPNTKUC4TU)
 [![Build Status](https://scrutinizer-ci.com/g/iriven/PhpFormBuilder/badges/build.png?b=master)](https://scrutinizer-ci.com/g/iriven/PhpFormBuilder/build-status/master)
@@ -23,8 +23,8 @@ Give it a try and let me know what you like, hate, and think needs to be fixed.
 
 #### Installation And Initialisation
 ```php
-require_once 'PhpFormBuilder.php';
-$form = new Iriven\PhpFormBuilder()
+require_once 'FormGenerator.php';
+$form = new Iriven\FormGenerator()
 ```
 ##### Example 
 
