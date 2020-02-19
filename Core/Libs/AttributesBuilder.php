@@ -28,14 +28,14 @@ class AttributesBuilder implements AttributesBuilderInterface
     {
         $this->attributes    = new Collection();
         $this->ignore        = new Collection();
-        if($attributes)
+        if(!empty($attributes))
         {
             is_array($attributes) or $attributes = array($attributes);
             $attributes = array_change_key_case($attributes,CASE_LOWER);
             $attributes = $this->array_map_keys([$this,'normalize'],$attributes);
             $this->attributes->add($attributes);
         }
-        if($ignore)
+        if(!empty($ignore))
         {
             is_array($ignore) or $ignore = array($ignore);
             $ignore = array_map([$this,'normalize'],$ignore);
@@ -85,7 +85,7 @@ class AttributesBuilder implements AttributesBuilderInterface
 
     /**
      * @param $key
-     * @param null $default
+     * @param $default
      * @return mixed
      */
     public function get($key,$default=null)
