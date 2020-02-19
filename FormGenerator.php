@@ -7,8 +7,6 @@
  */
 
 namespace Iriven\Plugins\Form;
-
-use \Bundle\Core\CoreController;
 use \Iriven\Plugins\Form\Core\Libs\Collection;
 use \Iriven\Plugins\Form\Elements\Audio;
 use \Iriven\Plugins\Form\Elements\Button;
@@ -59,9 +57,9 @@ class FormGenerator
     /**
      * FormGenerator constructor.
      *
-     * @param CoreController $App
+     * @param  $App
      */
-    public function __construct(CoreController $App)
+    public function __construct($App)
     {
         $this->Request = $App->Request();
         $formErrors = $App->get('errors',[]);
