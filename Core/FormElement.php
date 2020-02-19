@@ -18,7 +18,7 @@ class FormElement implements FormElementInterface
 {
     use KeyNormalizer;
     private   $label;
-    private   $attributes;
+    protected $attributes;
     private   $Types;
 
     /**
