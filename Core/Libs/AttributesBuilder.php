@@ -45,7 +45,7 @@ class AttributesBuilder implements AttributesBuilderInterface
     }
 
     /**
-     * @param $key
+     * @param string $key
      * @return $this
      */
     public function createElementID($key)
@@ -84,7 +84,7 @@ class AttributesBuilder implements AttributesBuilderInterface
     }
 
     /**
-     * @param $key
+     * @param string $key
      * @param $default
      * @return mixed
      */
@@ -95,7 +95,7 @@ class AttributesBuilder implements AttributesBuilderInterface
     }
 
     /**
-     * @param $key
+     * @param string $key
      * @return bool
      */
     public function has($key)
