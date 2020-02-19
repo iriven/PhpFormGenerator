@@ -14,11 +14,6 @@ The Ultimate PHP Form Builder Class is developed with the following goals in min
 The Iriven Php FormBuilder adhere to W3C standards. 
 Give it a try and let me know what you like, hate, and think needs to be fixed.
 
-## Dependencies
-
-- [x] [Iriven\WorldCountriesDatas](https://github.com/iriven/WorldCountriesDatas)
-- [x] [Iriven\OptionsResolver](https://github.com/iriven/PhpOptionsResolver)
-
 ## Usage: 
 
 #### Installation And Initialisation
