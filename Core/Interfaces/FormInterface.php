@@ -25,7 +25,7 @@ interface FormInterface
     public function addName($token = null);
     /**
      * @param $element
-     * @return FormElement|string $this
+     * @return $this
      */
     public function append($element);
 
