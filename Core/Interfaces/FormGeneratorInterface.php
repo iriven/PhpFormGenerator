@@ -1,18 +1,20 @@
 <?php
-namespace Iriven\Interfaces;
 /**
  * Created by PhpStorm.
  * User: Iriven France
- * Date: 08/04/2017
- * Time: 05:39
+ * Date: 22/05/2018
+ * Time: 06:33
  */
-interface FormBuilderInterface
+
+namespace Iriven\Plugins\Form\Core\Interfaces;
+
+
+interface FormGeneratorInterface
 {
     /* COMMON METHODS */
-    public function Create($attributes=[]);
+    public function Open($attributes=[]);
     public function Close();
-    public function OpenFieldset($attributes=[]);
-    public function CloseFieldset();
+    public function addFieldset($attributes=[]);
 
     /* INPUT TYPES */
     public function addAudio($label,$attributes=[]);
@@ -46,6 +48,4 @@ interface FormBuilderInterface
     public function addVideo($label,$attributes=[]);
     public function addWeek($label,$attributes=[]);
     public function addYesNo($label,$attributes=[]);
-
-
 }
