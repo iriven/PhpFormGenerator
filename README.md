@@ -27,15 +27,14 @@ PhpFormBuilder provides a fluent method of form creation, allowing you to do:
 
 ```php
     $form->Open(['method'=>'post'])
-    ->OpenFieldset(['legend'=>'Etat-Civil'])
+    ->addFieldset(['legend'=>'Etat-Civil'])
     ->addText('nom')
     ->addText('prenom')
     ->addYesNo('es-tu content?')
     ->addDate('aniversaire')
     ->addCheckbox('votre sexe',['M','F'])
     ->addCountry('votre pays')
-    ->CloseFieldset()
-    ->OpenFieldset(['legend'=>'Informations Générales'])
+    ->addFieldset(['legend'=>'Informations Générales'])
     ->addSelect('SimpleSelect',['0'=>'faux','1'=>'vrai'])
     ->addSelect('OptGroupSelect',['collaborateurs'=>['0'=>'aucun','1'=>'1 personne','6'=>'6 personnes'],'auteur'=>['2'=>'alfred','3'=>'iriven','4'=>'iriventeam']],['name'=>'selection2','value'=>'3'])
     ->addSelect('OptGroupMultiSelect',['collaborateurs'=>['0'=>'aucun','1'=>'1 personne','6'=>'6 personnes'],'auteur'=>['2'=>'alfred','3'=>'iriven','4'=>'iriventeam']],['name'=>'selection3','multiple'=>'multiple'])
@@ -53,7 +52,6 @@ PhpFormBuilder provides a fluent method of form creation, allowing you to do:
     ->addPhone('telephone',['required'=>'required'])
     ->addTextarea('message')
     ->addSubmit('envoyer')
-    ->CloseFieldset()
     ->Close();
 ```
 
