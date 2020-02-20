@@ -15,7 +15,7 @@ The Iriven Php FormGenerator adhere to W3C standards.
 Give it a try and let me know what you like, hate, and think needs to be fixed.
 
 ### Availlable Methods:
-
+```php
 - Open($attributes = [])
 - addAudio($label,$attributes=[])
 - addButton($label,$attributes=[])
@@ -52,7 +52,7 @@ Give it a try and let me know what you like, hate, and think needs to be fixed.
 - addWeek($label,$attributes=[])
 - addYesNo($label,$attributes=[])
 - Close($print=true)
-
+```
 ## Usage: 
 
 #### Installation And Initialisation
