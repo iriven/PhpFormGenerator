@@ -7,9 +7,9 @@
 
 The Ultimate PHP Form Generator Class is developed with the following goals in mind...
 
-  - promotes rapid development of HTML forms through an object-oriented PHP framework.
-  - Eliminate the grunt/repetitive work of writing the html when building forms.
-  - Reduce human error by using a consistent/tested utility.
+- [x] promotes rapid development of HTML forms through an object-oriented PHP framework.
+- [x] Eliminate the grunt/repetitive work of writing the html when building forms.
+- [x] Reduce human error by using a consistent/tested utility.
   
 The Iriven Php FormGenerator adhere to W3C standards. 
 Give it a try and let me know what you like, hate, and think needs to be fixed.
