@@ -26,7 +26,7 @@ $form = new Iriven\FormGenerator()
 PhpFormBuilder provides a fluent method of form creation, allowing you to do:
 
 ```php
-    $form->Create(['method'=>'post'])
+    $form->Open(['method'=>'post'])
     ->OpenFieldset(['legend'=>'Etat-Civil'])
     ->addText('nom')
     ->addText('prenom')
