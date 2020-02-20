@@ -14,6 +14,46 @@ The Ultimate PHP Form Builder Class is developed with the following goals in min
 The Iriven Php FormBuilder adhere to W3C standards. 
 Give it a try and let me know what you like, hate, and think needs to be fixed.
 
+
+### Availlable Methods:
+
+- [x] Open($attributes = [])
+- [x] addAudio($label,$attributes=[])
+- [x] addButton($label,$attributes=[])
+- [x] addCaptcha($label,$attributes=[])
+- [x] addCheckbox($label,$options = [],$attributes=[])
+- [x] addColor($label,$attributes=[])
+- [x] addCountries($label,$attributes=[])
+- [x] addDatalist($label, $options=[], $attributes = [])
+- [x] addDate($label,$attributes=[])
+- [x] addDatetime($label,$attributes=[])
+- [x] addDatetimeLocal($label,$attributes=[])
+- [x] addEditor($label,$attributes=[])
+- [x] addEmail($label,$attributes=[])
+- [x] addFieldset($attributes=[])
+- [x] addFile($label,$attributes=[])
+- [x] addHidden($label,$attributes=[])
+- [x] addHtml($html)
+- [x] addImage($label,$attributes=[])
+- [x] addMonth($label,$attributes=[])
+- [x] addNumber($label,$attributes=[])
+- [x] addPassword($label,$attributes=[])
+- [x] addPhone($label,$attributes=[])
+- [x] addRadio($label,$options=[],$attributes=[])
+- [x] addRange($label,$attributes=[])
+- [x] addReset($label,$attributes=[])
+- [x] addSearch($label,$attributes=[])
+- [x] addSelect($label,array $options = [],$attributes=[])
+- [x] addSubmit($label,$attributes=[])
+- [x] addText($label,$attributes=[])
+- [x] addTextarea($label,$attributes=[])
+- [x] addTime($label,$attributes=[])
+- [x] addUrl($label,$attributes=[])
+- [x] addVideo($label,$attributes=[])
+- [x] addWeek($label,$attributes=[])
+- [x] addYesNo($label,$attributes=[])
+- [x] Close($print=true)
+
 ## Usage: 
 
 #### Installation And Initialisation
