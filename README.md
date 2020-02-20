@@ -5,13 +5,13 @@
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/?branch=master)
 
-The Ultimate PHP Form Builder Class is developed with the following goals in mind...
+The Ultimate PHP Form Generator Class is developed with the following goals in mind...
 
   - promotes rapid development of HTML forms through an object-oriented PHP framework.
   - Eliminate the grunt/repetitive work of writing the html when building forms.
   - Reduce human error by using a consistent/tested utility.
   
-The Iriven Php FormBuilder adhere to W3C standards. 
+The Iriven Php FormGenerator adhere to W3C standards. 
 Give it a try and let me know what you like, hate, and think needs to be fixed.
 
 
@@ -63,7 +63,7 @@ $form = new Iriven\FormGenerator()
 ```
 ##### Example 
 
-PhpFormBuilder provides a fluent method of form creation, allowing you to do:
+PhpFormGenerator provides a fluent method of form creation, allowing you to do:
 
 ```php
     $form->Open(['method'=>'post'])
@@ -115,5 +115,5 @@ If you use this library in your project please add a backlink to this page by th
 
 ```html
 
-<a href="https://github.com/iriven/PhpFormBuilder" target="_blank">This Project Uses Alfred's TCHONDJO PhpFormBuilder Library.</a>
+<a href="https://github.com/iriven/PhpFormGenerator" target="_blank">This Project Uses Alfred's TCHONDJO PhpFormGenerator Library.</a>
 ```
