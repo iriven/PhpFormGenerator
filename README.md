@@ -1,6 +1,6 @@
 # PhpFormGenerator
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XDCFPNTKUC4TU)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=96DREYR2ZDZLU)
 [![Build Status](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/iriven/PhpFormGenerator/?branch=master)
@@ -106,7 +106,7 @@ This project is licensed under the GNU General Public License V3 - see the [LICE
 
 If this project help you reduce time to develop, you can give me a cup of coffee :)
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XDCFPNTKUC4TU)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=96DREYR2ZDZLU)
 
 ## Disclaimer
 
